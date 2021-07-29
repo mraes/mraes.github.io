@@ -1,1 +1,34 @@
-Hello GUI
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+    .bookmarklet {
+    display: block;
+    width: 150px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+  </style>
+    
+  </head>
+<body>
+<h3>HGW4 GUI bypass bookmarklet</h3>
+<h4>Steps to take:</h4>
+
+<ol>
+  <li>Drag the following link to your bookmarks bar</li>
+  <li>Navigate to the MyProducts internet detail page of your HGW4 line</li>
+  <li>Click the bookmarklet</li>
+</ol>
+<p>The bookmarklet:</p>
+
+<a class="bookmarklet" href="javascript:(function()%7BcircuitID%20%3D%20document.querySelector('%5Bdata-cy%3D%22internetLevelTwoAccessNumber%22%5D').innerText%3BlocalStorage.setItem(%22modemId%22%2C%20circuitID)%3Bwindow.location.href%20%3D%20%22https%3A%2F%2Fwww.proximus.be%2Fmyproximus%2Fen%2FPersonal%2Fservices%2FHomeGateway__%22%7D)()">Go to HGW4 GUI</a>
+
+</body>
+</html>
